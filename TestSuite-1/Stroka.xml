@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="5bb17105-6640-4f2f-97fd-3b71346ecb10" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Stroka" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="5bb17105-6640-4f2f-97fd-3b71346ecb10fileName">Stroka</con:setting></con:settings><con:testStep type="request" id="9f034862-1b65-4146-a02d-e15a52379448" name="Con_Stroka - Con_Stroka"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>Test_serviceSoap</con:interface><con:operation>Con_Stroka</con:operation><con:request name="Con_Stroka - Con_Stroka" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="03f77096-d8bb-4982-bd3f-2c70c167a4b4" defaultOutgoingWss="" defaultIncomingWss=""><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://localhost/test_service/Service1.asmx">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:Con_Stroka>
+         <!--Optional:-->
+         <ser:x>gero et</ser:x>
+         <!--Optional:-->
+         <ser:y>sonoras imperio</ser:y>
+      </ser:Con_Stroka>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="aa3ef655-fd7d-4b57-b2c2-f3e98743d1c1" name="SOAP Response"/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://localhost/test_service/Service1.asmx/Con_Stroka"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>
