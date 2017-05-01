@@ -3216,4 +3216,4 @@
       <http:address location="http://rapis02.aqa.com.ru/SOAP/Service1.asmx"/>
     </wsdl:port>
   </wsdl:service>
-</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint></con:endpoints></con:interface>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint></con:endpoints><con:environmentSpec><con:entry environmentId="9f81122d-911b-40df-a082-9afabb8f294c"><con:authProfile>Inherit From Parent</con:authProfile></con:entry><con:entry environmentId="6dc92cf6-ed2e-4146-b092-529699c1a115"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:interface>
